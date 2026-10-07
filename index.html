@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thanvika N.J. — Computer Science & Design student exploring cybersecurity, software and AI." />
+  <title>Thanvika N.J. — Cybersecurity × Software × AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="logo" href="#home">THANVIKA<span>.</span></a>
+    <nav>
+      <a href="#world">World</a>
+      <a href="#work">Work</a>
+      <a href="#playground">Playground</a>
+      <a href="#life">Life</a>
+    </nav>
+    <a class="nav-pill" href="#contact">Let's connect ↗</a>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+      <div class="hero-grid"></div>
+      <p class="eyebrow">PORTFOLIO / 2026</p>
+      <div class="hero-copy">
+        <p class="small-label">WELCOME TO</p>
+        <h1>Thanvika<br><em>N.J.</em></h1>
+        <p class="hero-role">Computer Science & Design student<br>exploring <strong>Cybersecurity × Software × AI.</strong></p>
+      </div>
+      <div class="hero-bottom">
+        <span>Scroll to explore ↓</span>
+        <div class="hero-links">
+          <a href="#work">Work</a>
+          <a href="#playground">Playground</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="world" class="world section">
+      <div class="section-head">
+        <span>01 / WORLD</span>
+        <span>CURIOUS BY DEFAULT</span>
+      </div>
+      <div class="world-intro">
+        <p class="kicker">WHERE TECHNOLOGY MEETS CURIOSITY</p>
+        <h2>Choose a world<br>to <em>explore.</em></h2>
+      </div>
+
+      <div class="world-grid">
+        <article class="world-card cyber" data-target="cyber">
+          <div class="card-symbol">⌁</div>
+          <span>01</span>
+          <h3>Cybersecurity</h3>
+          <p>SOC analysis · threat detection · networks</p>
+          <button>Explore ↗</button>
+        </article>
+        <article class="world-card software" data-target="software">
+          <div class="card-symbol">{ }</div>
+          <span>02</span>
+          <h3>Software</h3>
+          <p>Web apps · APIs · full-stack development</p>
+          <button>Explore ↗</button>
+        </article>
+        <article class="world-card ai" data-target="ai">
+          <div class="card-symbol">✦</div>
+          <span>03</span>
+          <h3>AI / ML</h3>
+          <p>Experiments · automation · intelligent systems</p>
+          <button>Explore ↗</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="work" class="work section">
+      <div class="section-head">
+        <span>02 / WORK</span>
+        <span>SELECTED PROJECTS</span>
+      </div>
+      <div class="work-title">
+        <p class="kicker">BUILDING, BREAKING, LEARNING.</p>
+        <h2>Things I've<br><em>built.</em></h2>
+      </div>
+
+      <div class="project-list">
+        <article class="project" data-category="cyber">
+          <div class="project-number">01</div>
+          <div class="project-visual visual-soc">
+            <div class="terminal">
+              <div><i></i><i></i><i></i></div>
+              <p>$ splunk --search alerts</p>
+              <p class="green">✓ suspicious_url detected</p>
+              <p>severity: HIGH</p>
+              <p>status: INVESTIGATING_</p>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="tag">CYBERSECURITY / SOC</p>
+            <h3>SOC Alert Investigation</h3>
+            <p>Investigated suspicious email and URL alerts using Splunk, practiced alert triage, and documented true/false-positive reasoning.</p>
+            <div class="tech">SPLUNK · EDR · SIEM · NETWORKING</div>
+          </div>
+        </article>
+
+        <article class="project reverse" data-category="cyber">
+          <div class="project-number">02</div>
+          <div class="project-visual visual-brute">
+            <div class="scan-box">
+              <span>PORT 22</span>
+              <strong>BRUTE FORCE</strong>
+              <small>AUTH.LOG / SSH</small>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="tag">CYBERSECURITY / DETECTION</p>
+            <h3>SSH Brute-Force Detection</h3>
+            <p>A hands-on security lab using Kali Linux, Nmap, Metasploit, Splunk and authentication logs to identify suspicious login activity.</p>
+            <div class="tech">KALI · NMAP · SPLUNK · LOG ANALYSIS</div>
+          </div>
+        </article>
+
+        <article class="project" data-category="ai">
+          <div class="project-number">03</div>
+          <div class="project-visual visual-ai">
+            <div class="node n1"></div><div class="node n2"></div><div class="node n3"></div>
+            <div class="line l1"></div><div class="line l2"></div><div class="line l3"></div>
+            <span>AI HONEYPOT</span>
+          </div>
+          <div class="project-info">
+            <p class="tag">AI / SECURITY</p>
+            <h3>AI-Based Honeypot</h3>
+            <p>A Flask-based honeypot concept using machine learning to identify suspicious activity from behavioral signals.</p>
+            <div class="tech">PYTHON · FLASK · MACHINE LEARNING</div>
+          </div>
+        </article>
+
+        <article class="project reverse" data-category="software">
+          <div class="project-number">04</div>
+          <div class="project-visual visual-coffee">
+            <div class="coffee-mark">THANVI<br><small>COFFEE ROASTERS</small></div>
+            <div class="coffee-cup"></div>
+          </div>
+          <div class="project-info">
+            <p class="tag">SOFTWARE / FULL STACK</p>
+            <h3>Thanvi Coffee Roasters</h3>
+            <p>A full-stack coffee ordering experience with orders, admin management, email confirmation, invoices and recommendations.</p>
+            <div class="tech">NODE.JS · EXPRESS · JAVASCRIPT · HTML/CSS</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="playground" class="playground section">
+      <div class="section-head">
+        <span>03 / PLAYGROUND</span>
+        <span>LEARNING, OUT LOUD</span>
+      </div>
+      <div class="playground-copy">
+        <p class="kicker">EXPERIMENTS / NOTES / CURIOSITY</p>
+        <h2>Still learning.<br><em>Always building.</em></h2>
+        <p class="lead">A space for the things that don't fit neatly into a resume — labs, ideas, design experiments and technical rabbit holes.</p>
+      </div>
+
+      <div class="play-grid">
+        <div class="play-card tall">
+          <span>LAB / 01</span>
+          <strong>SOC LABS</strong>
+          <p>Splunk searches, alert triage, detection logic and investigation notes.</p>
+          <div class="floating-icon">⌁</div>
+        </div>
+        <div class="play-card">
+          <span>LEARNING / 02</span>
+          <strong>NETWORKING</strong>
+          <p>Protocols, traffic, ports, packets and how systems talk.</p>
+        </div>
+        <div class="play-card">
+          <span>BUILD / 03</span>
+          <strong>WEB EXPERIMENTS</strong>
+          <p>Interfaces, animations, APIs and small ideas turned into working pages.</p>
+        </div>
+        <div class="play-card wide">
+          <span>NOW / 04</span>
+          <strong>WHAT I'M EXPLORING →</strong>
+          <p>Linux fundamentals · SOC L1 workflows · security labs · better software design</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="life" class="life section">
+      <div class="section-head">
+        <span>04 / LIFE</span>
+        <span>BEYOND THE CODE</span>
+      </div>
+      <div class="life-layout">
+        <div>
+          <p class="kicker">A LITTLE MORE THAN TECH</p>
+          <h2>People,<br><em>movement,</em><br>creativity.</h2>
+        </div>
+        <div class="life-copy">
+          <p>I enjoy the creative side of technology just as much as the technical side — from designing interfaces and visual content to dance and storytelling.</p>
+          <div class="life-facts">
+            <span>CREATIVE</span><span>CURIOUS</span><span>BUILDER</span><span>LEARNER</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="contact-circle">✦</div>
+      <p class="kicker">LET'S BUILD SOMETHING.</p>
+      <h2>Have an opportunity?<br><em>Let's talk.</em></h2>
+      <p class="contact-sub">Open to cybersecurity, software, AI internships, collaborations and interesting projects.</p>
+      <div class="contact-links">
+        <!-- Replace these with your real links -->
+        <a href="mailto:njthanvika@gmail.com">Email ↗</a>
+        <a href="https://github.com/ThanvikaNJ/end-to-end-soc-investigation-splunk" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+      <footer>
+        <span>THANVIKA N.J. © 2026</span>
+        <span>BUILT WITH CURIOSITY</span>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
